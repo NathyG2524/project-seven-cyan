@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+
+# Compiled output
+/dist/
+/tsconfig*.json
+*.js
+
+# NestJS generated files
+.nest
+
+# Log files
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor specific files
+.vscode/
+.idea/
+
+# Test coverage
+/coverage/
+
+# Temporary files
+*.swp
+*.tmp
+
+# IDE settings
+*.iml
