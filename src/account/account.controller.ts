@@ -5,12 +5,9 @@ import { CreateAccountDto, UpdateAccountDto, LoginAccountDto } from './dto/accou
 import { AccountService } from './account.service';
 import { Account } from './entities/account.entity';
 import { CollectionQuery, } from '../shared/collection-query';
-import { CreateUserDto } from './dto/user.dto';
-import { AuthGuard } from '@nestjs/passport';
 import { AuthService } from './auth.service';
 import { JwtAuthGuard } from './jwt-auth.guard';
  
-
 @ApiBearerAuth()
 @Controller('accounts')
 @ApiTags('accounts')
